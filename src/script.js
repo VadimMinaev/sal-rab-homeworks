@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
 
 function bindCart() {
     cart.shippingSettings = {minForFree: 700, price: 200};
-    cart.discountSettings = {minSum: 700, part: 10};
+    cart.discountSettings = {minSum: 700, part: 50};
     document.querySelectorAll('.add-in-cart').forEach((btn) => {
         btn.addEventListener('click', () => addInCartBtn(btn));
     })
