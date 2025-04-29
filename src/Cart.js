@@ -9,8 +9,8 @@ class Product {
 class Cart {
     constructor() {
         this.items = [];
-        this.discountSettings = { minSum: 1000, part: 50 };
-        this.shippingSettings = { minForFree: 1000, price: 200 };
+        this.discountSettings = { minSum: 100, part: 50 };
+        this.shippingSettings = { minForFree: 100, price: 20 };
         this.total = {
             discount: 0,
             shipping: 0,
